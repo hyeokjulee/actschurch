@@ -16,13 +16,12 @@
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.cj.jdbc.Driver" />
                 <property name="url" value="jdbc:mysql://localhost:3306/actschurch?serverTimezone=UTC" />
-                <property name="username" value="actschurch" />
-                <property name="password" value="actschurch00" />
+                <property name="username" value="root" />
+                <property name="password" value="" />
             </dataSource>
         </environment>
     </environments>
     <mappers>
-		
 		<mapper resource="/sqlMap/mapper/lecture.xml" />
         <mapper resource="/sqlMap/mapper/coop.xml" />
         <mapper resource="/sqlMap/mapper/doctrine.xml" />
