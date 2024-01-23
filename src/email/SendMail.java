@@ -1,24 +1,18 @@
 package email;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.net.URLEncoder;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
+import jdbc.UserDAO;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import com.mysql.cj.xdevapi.Result;
-
-import email.NaverSMTP;
-import jdbc.UserDAO;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 
 @WebServlet("/sendMail.do")
 public class SendMail extends HttpServlet {
@@ -87,7 +81,7 @@ public class SendMail extends HttpServlet {
 		htmlContent = htmlContent.replace("__NUMBER__", randNum);	
 		
 		emailInfo.put("content", htmlContent);	// 내용
-		emailInfo.put("from", "austiny@naver.com");		// 보내는 사람, 변동 불가, 반드시 본인의 네이버 메일 주소
+		emailInfo.put("from", "이메일주소");		// 보내는 사람, 변동 불가, 반드시 본인의 네이버 메일 주소
 		emailInfo.put("to", userEmail);			// 받는 사람
 		emailInfo.put("subject", "행전우리교회 회원 인증 메일");	// 제목
 		

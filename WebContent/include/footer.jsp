@@ -163,8 +163,5 @@ function popModal2(head, body, url) {
 				}
 			});
 		<%}%>
-			
-	
 	})
- 
 </script>

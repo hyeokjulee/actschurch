@@ -22,6 +22,7 @@
         </environment>
     </environments>
     <mappers>
+		
 		<mapper resource="/sqlMap/mapper/lecture.xml" />
         <mapper resource="/sqlMap/mapper/coop.xml" />
         <mapper resource="/sqlMap/mapper/doctrine.xml" />
