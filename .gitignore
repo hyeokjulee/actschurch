@@ -1,9 +1,9 @@
-/.metadata/
-/.classpath
-/.project
-/.settings/
-/bin/
-/build/
+bin/
+build/
+.metadata/
+.settings/
+.classpath
+.project
+out/
 .idea/
 *.iml
-out/
