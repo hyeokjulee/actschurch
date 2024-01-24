@@ -9,7 +9,6 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 
-
 //myBatis 설정 파일을 읽어 DB 커넥션을 맺은뒤 커넥션 맺은 session을 반환
 public class SqlSessionManager {
 	public static SqlSessionFactory sqlSession;

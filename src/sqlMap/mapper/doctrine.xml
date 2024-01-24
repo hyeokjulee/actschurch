@@ -51,7 +51,4 @@
   			<include refid="criteria"/> 
   	<![CDATA[ dno > 0 ]]>
   </select>
-  
-  
-  
 </mapper>
