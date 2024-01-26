@@ -7,8 +7,7 @@
        0.7(추가 디자인 23/02/15)
        1.0(1차 완성 23/02/15)
 --> 
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>

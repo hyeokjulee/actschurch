@@ -81,7 +81,7 @@ public class SendMail extends HttpServlet {
 		htmlContent = htmlContent.replace("__NUMBER__", randNum);	
 		
 		emailInfo.put("content", htmlContent);	// 내용
-		emailInfo.put("from", "이메일주소");		// 보내는 사람, 변동 불가, 반드시 본인의 네이버 메일 주소
+		emailInfo.put("from", "******이메일주소******");		// 보내는 사람, 변동 불가, 반드시 본인의 네이버 메일 주소
 		emailInfo.put("to", userEmail);			// 받는 사람
 		emailInfo.put("subject", "행전우리교회 회원 인증 메일");	// 제목
 		

@@ -32,7 +32,7 @@ public class NaverSMTP {
         this.serverInfo.put("mail.smtp.ssl.protocols", "TLSv1.2");
         this.auth = new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("이메일주소", "비밀번호");
+                return new PasswordAuthentication("*****관리자이메일주소*****", "*****비밀번호*****");
             }
         };
     }

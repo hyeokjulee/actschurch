@@ -3,10 +3,10 @@
     <Resource name="jdbc/actschurch"
               auth="Container"
               type="javax.sql.DataSource"
-              driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://localhost:3306/actschurch?serverTimezone=UTC"
+              driverClassName="org.mariadb.jdbc.Driver"
+              url="jdbc:mariadb://localhost:3306/actschurch?serverTimezone=UTC"
               username="root"
-              password=""
+              password="1111"
               maxTotal="16"
               maxIdle="4"
               maxWaitMillis="-1"/>
