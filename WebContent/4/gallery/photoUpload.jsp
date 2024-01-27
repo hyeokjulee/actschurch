@@ -21,7 +21,7 @@
     import="com.oreilly.servlet.MultipartRequest, com.oreilly.servlet.multipart.DefaultFileRenamePolicy"
 %>
 <%
-	/* 
+	/*
 	// 해당 앱 내 업로드 경로 설정
 	//String uploadPath = "/resources/gallery";
 	// 실제 업로드 저장 경로 설정
