@@ -188,18 +188,6 @@ function photoRemove(no, uuid, filename) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 lightbox.option({
     resizeDuration: 200,
     wrapAround: false,
@@ -218,6 +206,23 @@ $('#doneBtn').on('click', function(){
 		popModal('사진 등록 실패', '입력 값이 없는 항목이 있습니다.')
 	}
 });
+
+
+
+	$("input[name=image]").off().on("change", function(){
+		if (this.files && this.files[0]) {
+
+			var maxSize = 5 * 1024 * 1024;
+			var fileSize = this.files[0].size;
+
+			if(fileSize > maxSize){
+				alert("첨부파일 사이즈는 5MB 이내로 등록 가능합니다.");
+				$(this).val('');
+				return false;
+			}
+		}
+	});
+
 </script>
 </body>
 </html>
