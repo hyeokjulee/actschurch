@@ -21,14 +21,14 @@
 
 
 ## 3. ERD
-<img width="500" src="https://github.com/hyeokjulee/actschurch/assets/122426157/b3ff5309-2001-4c30-8993-6c88ea9cbfb5">
+<img width="500" src="ERD.png">
 
 
 <br><br>
 
 
 ## 4. IA
-<img width="700" src="https://github.com/hyeokjulee/actschurch/assets/122426157/506fd4be-1304-4a35-878a-b000dff55c8f">
+<img width="700" src="IA.png">
 
 
 <br><br>
