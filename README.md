@@ -21,14 +21,14 @@
 
 
 ## 3. ERD
-<img width="500" src="https://github.com/hyeokjulee/actswoori/assets/122426157/d6c455df-4757-407b-9c3c-307188bc3dd6">
+<img width="500" src="https://github.com/hyeokjulee/actschurch/assets/122426157/b3ff5309-2001-4c30-8993-6c88ea9cbfb5">
 
 
 <br><br>
 
 
 ## 4. IA
-<img width="700" src="https://github.com/hyeokjulee/actswoori/assets/122426157/ddf122ac-201b-4c6c-8bab-195422279df4">
+<img width="700" src="https://github.com/hyeokjulee/actschurch/assets/122426157/506fd4be-1304-4a35-878a-b000dff55c8f">
 
 
 <br><br>
