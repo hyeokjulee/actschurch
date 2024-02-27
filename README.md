@@ -9,12 +9,12 @@
 
 ## 2. Tech Stack
 - Backend : Java 8, Servlet 3.1, MyBatis 3.5
-- DBMS : MariaDB 10.0
 - Template engine : JSP 2.3
-- IDE : Eclipse
-- Deployment : Tomcat 8.5, CentOS 7
-- Collaboration tool : Zoom, Notion, Google Workspace
+- Frontend : JavaScript, HTML, CSS
+- RDBMS : MariaDB 10.0
 - Git branching strategy : GitLab Flow
+- Collaboration tool : Zoom, Notion, Google Workspace
+- Deployment : Tomcat 8.5 (on CentOS 7)
 
 
 <br><br>
