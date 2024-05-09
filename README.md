@@ -1,7 +1,6 @@
 ## 1. 소개
 행전우리교회 홈페이지입니다. 운영에 어려움이 있는 개척교회를 돕기 위해 봉사 목적으로 개발되었습니다.
 - 링크 : http://actswoori.org
-- 기존 깃허브 : https://github.com/BeomSeokYu/Save-The-Web-actswoori
 
 
 <br><br>
